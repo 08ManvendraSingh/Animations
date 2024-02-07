@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		.main{
+			width: 350px;
+			height: 350px;
+			border: 1px solid transparent;
+			background-color: #eee6e68c;
+			margin-top: 200px;
+			margin-left: 300px;
+			position: relative;
+			overflow: hidden;
+			z-index: 0;
+			float: left;
+			}
+			.up{
+				width: 360px;
+				height: 100%;
+				border-radius: 50%;
+				background-color: #a8c7da91;
+				position: absolute;
+				top: -351px;
+				left: -5px;
+				z-index: 1;
+			}
+			.circle{
+				position: relative;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				z-index: 2;
+				margin-top: 50px;
+				margin-left: 100px;
+				background-color: white;
+			}
+			.circle img{
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+			}
+			.main:hover .circle{
+				box-shadow: 0px 0px 0px 10px #034adaf5;
+				transition: all .5s;
+			}
+			.main:hover .circle img{
+				width: 85%;
+				height: 85%;
+				transition: all .5s;
+				margin-left: 10px;
+				margin-top: 10px;
+			}
+			.main:hover .up{
+				top: -214px;
+				transition: all .5s;
+			}
+			.main h1{
+				text-align: center;
+				margin-top: 20px;
+				line-height: 1em;
+			}
+			.main h1 span{
+				text-align: center;
+				font-size: 1rem;
+			}
+			.down{
+				width: 100%;
+				height: 2.4rem;
+				/*border: 1px solid blue;*/
+				z-index: 2;
+				position: relative;
+				top: 40px;
+			}
+			.down img{
+				width: 30px;
+				height: 30px;
+				margin-left: 40px;
+				margin-top: 5px;
+			}
+			.main:hover .down{
+				top: 3px;
+				transition: all .5s;
+				background-color: #034adaf5;
+			}
+	</style>
+</head>
+<body>
+    <div class="main">
+    	<div class="up"></div>
+    	<div class="circle">
+    		<img src="image/circle.jpg">
+    	</div>
+    	<h1>Emely<br>
+    	<span>Writer</span></h1>
+    	<div class="down">
+    		<img src="image/facebook.png">
+    		<img src="image/twitter.png">
+    		<img src="image/instagram.png">
+    		<img src="image/linkedin.png">
+    	</div>
+    </div>
+
+      <div class="main">
+    	<div class="up"></div>
+    	<div class="circle">
+    		<img src="image/circle.jpg">
+    	</div>
+    	<h1>Emely<br>
+    	<span>Writer</span></h1>
+    	<div class="down">
+    		<img src="image/facebook.png">
+    		<img src="image/twitter.png">
+    		<img src="image/instagram.png">
+    		<img src="image/linkedin.png">
+    	</div>
+    </div>
+</body>
+</html>

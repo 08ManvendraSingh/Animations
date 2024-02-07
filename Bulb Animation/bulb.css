@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #222;
+}
+.one i{
+     position: relative;
+     top: 165px;
+     left: 550px;
+     font-size: 5rem;
+     animation-name: hi;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: .3s;
+}
+.two i{
+     position: relative;
+     top: 105px;
+     left: 630px;
+     font-size: 5rem;
+     transform: rotateZ(400deg);
+     animation-name: hi;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: .6s;
+}
+.three i{
+     position: relative;
+     top: 100px;
+     left: 670px;
+     font-size: 5rem;
+     transform: rotateZ(450deg);
+     animation-name: hi;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: .9s;
+}
+.four i{
+     position: relative;
+     top: 100px;
+     left: 635px;
+     font-size: 5rem;
+     transform: rotateZ(490deg);
+     animation-name: hi;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: 1.2s;
+}
+.five i{
+     position: relative;
+     top: 47px;
+     left: 550px;
+     font-size: 5rem;
+     transform: rotateZ(540deg);
+     animation-name: hi;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: 1.5s;
+}
+.six i{
+     position: relative;
+     top: -70px;
+     left: 475px;
+     font-size: 5rem;
+     transform: rotateZ(580deg);
+     animation-name: hi;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: 1.8s;
+}
+.seven i{
+     position: relative;
+     top: -215px;
+     left: 430px;
+     font-size: 5rem;
+     transform: rotateZ(630deg);
+     animation-name: hi;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: 2.1s;
+}
+.eight i{
+     position: relative;
+     top: -375px;
+     left: 475px;
+     font-size: 5rem;
+     transform: rotateZ(675deg);
+     animation-name: hi;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: 2.4s;
+}
+
+@keyframes hi{
+		from{
+          color: yellow;
+	}
+	to{
+         
+	}
+
+}
+
+
+

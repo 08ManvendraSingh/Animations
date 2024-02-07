@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.full{
+	width: 100%;
+	height: 47rem;
+    background: linear-gradient(red,#850b94);
+}
+.main1,.main2,.main3,.main4 {
+	width: 100px;
+	height: 100px;
+	background-color: #e87a8a69;
+	transition: .5s all;
+	animation-name: one;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+.main1{
+	width: 40px;
+	height: 40px;
+    position: absolute;
+	top: 95%;
+	left: 20%;
+}
+.main2{
+    position: absolute;
+	top: 95%;
+	left: 35%;
+}
+.main3{
+	width: 130px;
+	height: 130px;
+    position: absolute;
+	top: 95%;
+	left: 50%;
+
+}
+.main4{
+	width: 85px;
+	height: 85px;
+    position: absolute;
+	top: 95%;
+	left: 70%;
+
+}
+
+
+@keyframes one{
+	from{ transform: translateY(0px) rotate(0deg);}
+	to{ width: 0px; height: 0px;transform: translateY(-47rem) rotate(-180deg);}
+}

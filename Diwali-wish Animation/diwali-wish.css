@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #881da3cf;
+	padding-top: 5%;
+	text-align: center;
+	color: white;
+}
+.o-circle{
+	width: 40%;
+	height: 80vh;
+    border: 10px dotted white;
+	border-radius: 50%;
+	background-color: transparent;
+	margin-left: 30%;
+	animation-name: hi2;
+	animation-duration: 20s;
+	animation-delay: .1s;
+	animation-iteration-count: infinite;
+}
+.circle{
+	position: relative;
+	top: -570px;
+	left: 482px;
+	width: 37.2%;
+	height: 74vh;
+	border-radius: 50%;
+	background-color: #6a1e86;
+	box-shadow: inset 0px 0px 0px 5px white;
+}
+.circle h2{
+	padding-top: 5rem;
+	font-size: 3rem;
+}
+.circle h1{
+	font-size: 5rem;
+}
+.circle i{
+	font-size: 8.2rem;
+	margin-top: 4rem;
+	color: yellow;
+	animation-name: hi;
+	animation-duration: 5s;
+	animation-delay: .2s;
+	animation-iteration-count: infinite;
+}
+.diya{
+	width: 250px;
+	height: 120px;
+	background-color: #881da3cf;
+	border-bottom-right-radius: 200px;
+	border-bottom-left-radius: 200px;
+	box-shadow: inset 0px 0px 0px 4px white ;
+	margin-left: 29%;
+}
+@keyframes hi{
+	0%{
+          transform: rotateX(0deg);
+	}
+	50%{
+          transform: rotate(20deg);  
+	}
+}
+@keyframes hi2{
+	from{
+          transform:  rotateZ(0deg);
+	}
+	to{
+          transform: rotateZ(360deg);  
+	}
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+	<style>
+		.item{
+			width: 100%;
+			height: 100vh;
+		}
+		.item img{
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="owl-carousel owl-theme">
+    	<div class="item">
+    		<img src="image/one.jpg">
+    	</div>
+    	<div class="item">
+    		<img src="image/nike3.png">
+    	</div>
+    	<div class="item">
+    		<img src="image/girl.jpg">
+    	</div>
+    	<div class="item">
+    		<img src="image/pen.jpg">
+    	</div>
+    	<div class="item">
+    		<img src="image/pic.jpg">
+    	</div>
+    	<div class="item">
+    		<img src="image/team4.jpg">
+    	</div>
+    </div> 
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script type="text/javascript">
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    responsiveClass:true,
+    autoplay:1000,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:true
+        }
+    }
+})
+</script>
+
+</body>
+</html>

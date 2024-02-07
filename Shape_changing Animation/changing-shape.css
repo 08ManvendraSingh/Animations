@@ -1,0 +1,21 @@
+div{
+	width: 100px;
+	height: 100px;
+	background-color: lightgreen;
+padding-left: 40px;
+padding-top: 30px;
+box-sizing: border-box;
+animation-name: trial;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background-image: ;
+
+}
+@keyframes trial
+{
+	from{background-color: lightgreen;margin-left: 0px;border-radius: 0px;opacity: 1;}
+	to{background-color: blue;margin-left: 300px;border-radius: 50%;opacity:0 ;}
+
+}
+

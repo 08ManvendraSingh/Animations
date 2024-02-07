@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	width: 100%;
+	height: auto;
+}
+.black{
+	width: 100%;
+	height: 100vh;
+	background-color: #000000de;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+
+} 
+.first{
+	width: 130px;
+	height: 30px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.one{
+
+	width: 130px;
+	height: 30px;
+	background-color: rgba(150, 8, 58, .5);
+	position: absolute;
+	top: 0px;
+	left:-130px;
+	z-index: 2;
+	transition: all .5s;
+
+}
+.first:hover .one{
+	left: 0px;
+}
+
+.second{
+	width: 130px;
+	height: 30px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.two{
+
+	width: 130px;
+	height: 30px;
+	background-color: rgba(150, 8, 58, .5);
+	position: absolute;
+	top: -30px;
+	left:0px;
+	z-index: 2;
+	transition: all .5s;
+
+}
+.second:hover .two{
+	top: 0px;
+}
+.third{
+	width: 130px;
+	height: 30px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.three{
+
+	width: 130px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	z-index: 2;
+	transition: all .5s;
+
+}
+.third:hover .three{
+	background-color: hotpink;
+}
+
+.fourth{
+	width: 130px;
+	height: 30px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.four{
+
+	width: 130px;
+	height: 30px;
+	background-color: rgba(150, 8, 58, .5);
+	position: absolute;
+	bottom: -30px;
+	left:0px;
+	z-index: 2;
+	transition: all .5s;
+
+}
+.fourth:hover .four{
+	bottom: 0px;
+}
+.fifth{
+	width: 130px;
+	height: 30px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+    position: relative;
+    z-index: 2;
+}
+.five{
+
+	width: 130px;
+	height: 30px;
+	background-color: rgba(150, 8, 58, .5);
+	position: absolute;
+	top: 0px;
+	left:0px;
+	transition: all .5s;
+	z-index: 1;
+
+}
+.fifth:hover .five{
+	top: 10px;
+	left: 10px;
+	
+}

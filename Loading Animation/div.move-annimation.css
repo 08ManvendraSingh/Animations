@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background: black;
+	padding: 20%;
+}
+.one{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	animation-name: hi;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: .5s;
+}
+@keyframes hi
+{   from{
+	transform: rotate(0deg) translate(0px) ;
+}
+to{
+	transform: rotate(360deg) translatex(160px)  ;
+}
+}
+.two{
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	position: relative;
+	top: -65px;
+	left: 50px;
+	transform: rotatez(35deg);
+	
+}
+.three{
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	position: relative;
+	top: -10px;
+	left: -40px;
+	transform: rotatez(-13deg);
+
+}
+
+.four{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	position: relative;
+	top: -90px;
+	left: 160px;
+	animation-name: hi2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: .5s;
+}
+@keyframes hi2
+{   from{
+	transform: rotate(0deg) translate(0px) ;
+}
+to{
+	transform: rotate(360deg) translatey(160px)  ;
+}
+}
+.five{
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	position: relative;
+	top: -155px;
+	left: 110px;
+	transform: rotatez(145deg);
+}
+.six{
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	position: relative;
+	top: -100px;
+	left: 190px;
+	transform: rotatez(20deg);
+}
+.seven{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	position: relative;
+	top: -15px;
+	left: 160px;
+	animation-name: hi3;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: .5s;
+}
+@keyframes hi3
+{   from{
+	transform: rotate(0deg) translate(0px) ;
+}
+to{
+	transform: rotate(360deg) translatex(-160px)  ;
+}
+}
+.eight{
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	position: relative;
+	top: -100px;
+	left: 190px;
+	transform: rotatez(145deg);
+}
+.nine{
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	position: relative;
+	top: -130px;
+	left: -50px;
+	transform: rotatez(22deg);
+
+}
+
+.ten{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	position: relative;
+	top: -105px;
+	left: 0px;
+	animation-name: hi4;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: .5s;
+}
+@keyframes hi4
+{   from{
+	transform: rotate(0deg) translate(0px) ;
+}
+to{
+	transform: rotate(360deg) translatey(-160px)  ;
+}
+}
+
+
+.eleven{
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	position: relative;
+	top: -100px;
+	left: 105px;
+	transform: rotatez(25deg);
+}
+
+.twelve{
+	content: '';
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	position: relative;
+	top: -130px;
+	left: 45px;
+	transform: rotatez(-25deg);
+}
+

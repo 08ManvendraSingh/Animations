@@ -1,0 +1,135 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 150px;
+	background-color: lightblue;
+
+
+}
+
+
+
+
+
+.main span
+{
+	font-size: 8em;
+	letter-spacing: 7px;
+	transition: all .5s;
+	background-color:;
+	color: blue;
+	animation-name: hi;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+
+}
+/*.main:hover span 
+{
+	 text-shadow: 0px 1px 1px red,
+	               0px 2px 1px red,
+	                0px 3px 1px red,
+	                 0px 4px 1px red,
+	                  0px 5px 1px red,
+	                   0px 6px 1px red,
+	                    0px 7px 1px red,
+	                     0px 8px 1px red,
+	                      0px 9px 1px red,
+	                       0px 10px 1px red,
+	                        0px 11px 1px red,
+	                         0px 12px 1px red,
+	                          0px 13px 1px red,
+	                           0px 14px 1px red,
+	                            0px 15px 1px red,
+	                             0px 16px 1px red,
+	                              0px 17px 1px red, 
+	                               0px 20px 1px red;
+	                             transform: rotatex(45deg) skewY(5deg);
+
+}*/
+.main span:nth-child(1)
+{
+	animation-delay: .1s;
+}
+.main span:nth-child(2)
+{
+	animation-delay: .2s;
+}
+.main span:nth-child(3)
+{
+	animation-delay: .3s;
+}
+.main span:nth-child(4)
+{
+	animation-delay: .4s;
+}
+.main span:nth-child(5)
+{
+	animation-delay: .5s;
+}
+.main span:nth-child(6)
+{
+	animation-delay: .6s;
+}
+.main span:nth-child(7)
+{
+	animation-delay: .7s;
+}
+.main span:nth-child(8)
+{
+	animation-delay: .8s;
+}
+@keyframes hi{
+	0%{
+		color: red;
+		text-shadow: 0px 0px 0px red;
+		transform: translateY(100px);
+		box-shadow: 0px 0px 10px 10px black;
+	}
+	25%{
+		color: green;
+		text-shadow: 10px 10px 10px green;
+		transform: translateY(100px);
+		box-shadow: 0px 0px 10px 10px black;
+
+	}
+	50%{
+		color:yellow;
+		text-shadow: 10px 10px 10px yellow;
+		transform: translateY(100px);
+		box-shadow: 0px 0px 10px 10px black;
+
+	}
+	75%{
+		color: lightskyblue;
+		text-shadow: 0px 0px 0px lightskyblue;
+		transform: translateY(100px);
+		box-shadow: 0px 0px 10px 10px black;
+
+	}
+	100%{
+		color: blue;
+		text-shadow: 0px 0px 0px blue;
+		transform: translateY(100px);
+		box-shadow: 0px 0px 10px 10px black;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

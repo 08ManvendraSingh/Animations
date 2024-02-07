@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+button{
+	border: 1px solid #27022d;
+	color: darkred;
+	width:150px;
+	height: 4em;
+	margin: 200px;
+	position: relative;
+	transition: .5s;
+	overflow: hidden;
+
+}
+button:hover{
+	background: #a41ee9;
+
+}
+button:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: -150px;
+	background: linear-gradient(90deg,transparent,white);
+     transition: .5s;
+}
+button:hover:before{
+	left: 150px;
+}
+
